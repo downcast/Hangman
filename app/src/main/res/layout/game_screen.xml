@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/gameScreenLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@raw/total"
+    android:focusable="true" >
+
+    <Button
+        android:id="@+id/showKeyboardBtn"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true" />
+
+    <TextView
+        android:id="@+id/hintLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:text="@string/hintLabelText"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/guessTextLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/YOURGUESSLabel"
+        android:layout_below="@+id/YOURGUESSLabel"
+        android:layout_marginTop="20dp"
+        android:text="@string/guessLabelText"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/YOURGUESSLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/hintLabel"
+        android:layout_marginLeft="39dp"
+        android:layout_marginTop="23dp"
+        android:text="@string/yourGuessConstantLabel" />
+
+    <TextView
+        android:id="@+id/wrongLetters"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/hintLabel"
+        android:layout_centerVertical="true"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/WRONGLETTERLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/guessTextLabel"
+        android:layout_marginRight="24dp"
+        android:text="@string/wrongLettersConstantLabel" />
+
+    <TextView
+        android:id="@+id/wordCountLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/YOURGUESSLabel"
+        android:layout_alignBottom="@+id/YOURGUESSLabel"
+        android:layout_alignLeft="@+id/WRONGLETTERLabel"
+        android:text="@string/wordCountText"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</RelativeLayout>

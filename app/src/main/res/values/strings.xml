@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Hangman</string>
+
+    <string name="StartBtn">Start Game</string>
+    <string name="optionsBtn">Options</string>
+    <string name="highScoreLabel">High Scores</string>
+    <string name="difficultyBtn">Difficulty</string>
+    <string name="soundBtn">Sound</string>
+    <string name="creditsBtn">Credits</string>
+    <string name="hintLabelText">One Word\nWhen lightning lands</string>
+    <string name="wordCountText">0</string>
+    <string name="guessLabelText"></string>
+    <string name="yourGuessConstantLabel">Your Guess</string>
+    <string name="wrongLettersConstantLabel">Wrong Letters</string>
+    <string name="newGameBtn">New Game</string>
+    <string name="loserAnnouceLabel">Sorry, you lost.</string>
+    <string name="winnerAnnouceLabel">You won!</string>
+    <string name="scoreLabelText">Score: </string>
+    <string name="timeLabelText">Time: </string>
+    <string name="gameScoreLabel">Game Scores</string>
+
+</resources>
